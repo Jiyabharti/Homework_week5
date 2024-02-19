@@ -8,7 +8,7 @@ def get_user_choice():
         print("Invalid choice. Please enter Rock, Paper, or Scissors.")
         user_choice = input("Enter your choice (Rock, Paper, or Scissors): ").capitalize()
     return user_choice
-
+# Learning to use .capitalize instead of actual Cap lock
 
 def opponent_choice():
     """Generate computer's choice randomly."""
@@ -26,7 +26,7 @@ def determine_winner(user_choice, computer_choice):
     ):
         return "Are you a mind reader! :/ You win!"
     else:
-        return "Computer wins!"
+        return "Opponent wins!"
 
 
 def play_game():
