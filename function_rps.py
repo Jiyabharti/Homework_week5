@@ -18,3 +18,6 @@ def game_rules(user_choice, computer_choice):
     else:
         print("Computer wins!")
 
+if __name__ == "__main__":
+    # test the function
+    print('This is a test')
